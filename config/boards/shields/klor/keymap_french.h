@@ -85,7 +85,7 @@
 #define FR_B    B    // B
 #define FR_N    N    // N
 #define FR_COMM M    // ,
-#define FR_SCLN SCLN  // ;
+#define FR_SCLN COMMA // ;
 #define FR_COLN DOT   // :
 #define FR_EXLM SLASH  // !
 
