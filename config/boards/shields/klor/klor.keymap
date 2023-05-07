@@ -78,7 +78,7 @@ label= "Default"                                                  ;
                  &kp FR_A     &kp FR_Z     &kp E        &kp R        &kp T                                   &kp Y        &kp U        &kp I        &kp O        &kp P
     &kp LPAR     &kp FR_Q     &kp S        &kp D        &kp F        &kp G                                   &kp H        &kp J        &kp K        &kp L        &kp FR_M     &kp RPAR
     &kp LC(LSHFT)&kp FR_W     &kp X        &kp C        &kp V        &kp B        &trans        &trans       &kp N        &kp FR_COMM  &kp FR_SCLN  &kp FR_COLN  &kp FR_EXLM  &lt Fun FR_CIRC
-                                           &kp DEL      &lt Unic TAB &mt LS RET   &mt LCTRL ESC &mt LALT K_APP&mt LSHFT SPACE &lt NumArr BSPC &kp LGUI    
+                                           &kp DEL      &lt Unic TAB &mt LSHFT RET&mt LCTRL ESC &mt LALT K_APP&mt LSHFT SPACE &lt NumArr BSPC &kp LGUI    
                         >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
