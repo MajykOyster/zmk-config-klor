@@ -19,6 +19,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/ext_power.h>
 
+
 #define BASE   0
 #define LOWER  1
 #define RAISE  2
@@ -73,7 +74,7 @@ label= "BASE"                                                  ;
               &kp Q     &kp W     &kp E     &kp R     &kp T                          &kp Y     &kp U     &kp I     &kp O     &kp P
     &kp TAB   &kp A     &kp S     &kp D     &kp F     &kp G                          &kp H     &kp J     &kp K     &kp L     &kp M     &kp SQT
     &kp DEL   &kp Z     &kp X     &kp C     &kp V     &kp B     &trans     &trans    &kp N     &kp COMMA &kp COMMA &kp DOT   &kp FSLH  &kp BSLH
-                                  &kp DEL   &mo LOWER &kp RET   &kp LCTRL  &kp ALT   &kp SPACE &mo BSPC &kp BSPC    
+                                  &kp DEL   &kp TAB   &kp RET   &kp LCTRL  &kp ALT   &kp SPACE &kp BSPC &kp BSPC    
                         >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
