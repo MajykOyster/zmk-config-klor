@@ -77,7 +77,7 @@ label= "Default"                                                  ;
  //╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷
                  &kp FR_A     &kp FR_Z     &kp E        &kp R        &kp T                                   &kp Y        &kp U        &kp I        &kp O        &kp P
     &kp LPAR     &kp FR_Q     &kp S        &kp D        &kp F        &kp G                                   &kp H        &kp J        &kp K        &kp L        &kp FR_M     &kp RPAR
-    &kp LC(LSHFT) &kp FR_W     &kp X        &kp C        &kp V        &kp B        &trans        &trans       &kp N        &kp FR_COMM  &kp FR_SCLN  &kp FR_COLN  &kp FR_EXLM  &lt Fun FR_CIRC
+    &kp LC(LSHFT)&kp FR_W     &kp X        &kp C        &kp V        &kp B        &trans        &trans       &kp N        &kp FR_COMM  &kp FR_SCLN  &kp FR_COLN  &kp FR_EXLM  &lt Fun FR_CIRC
                                            &kp DEL      &lt Unic TAB &mt LSHFT RET &mt LCTRL ESC &mt LALT A &mt LSHFT SPACE &lt NumArr BSPC &kp LGUI    
                         >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -91,20 +91,20 @@ label= "Default"                                                  ;
 label= "NumArr"                                                  ;
 // └───────────────────────────────────────────────────────────┘
 /*           ┌─────────┬─────────┬─────────┬─────────┬─────────┐                    ┌─────────┬─────────┬─────────┬─────────┬─────────┐
-             │    6    │    7    │    8    │    9    │    0    │                    │  PG_UP  │   QUOT  │    UP   │   DQUO  │  HOME   │   
+             │    Q    │    W    │    E    │    R    │    T    │                    │    Y    │    U    │    I    │    O    │    P    │   
    ┌─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤                    ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┐
-   │   TAB   │    1    │    2    │    3    │    4    │    5    │                    │  PG_DN  │   LEFT  │   DOWN  │  RIGHT  │   END   │    "    │
+   │   TAB   │    A    │    S    │    D    │    F    │    G    │                    │    H    │    J    │    K    │    L    │    M    │    "    │
    ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤╭────────╮╭────────╮├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
-   │   DEL   │    /    │    *    │    -    │    +    │    =    ││  MUTE  ││PLY/PSE ││    [    │    ]    │    {    │    }    │    <    │    >    │
+   │   DEL   │    Z    │    X    │    C    │    V    │    B    ││  MUTE  ││PLY/PSE ││    N    │    ,    │    ;    │    :    │    !    │    \    │
    └─────────┴─────────┴─────────┼─────────┼─────────┼─────────┼╰────────╯╰────────╯┼─────────┼─────────┼─────────┼─────────┴─────────┴─────────┘
-                                 │   DEL   │   TAB   │  SPACE  │   CTRL  ││   ALT   │  SPACE  │   BSPC  │   GUI   │  
+                                 │   DEL   │   TAB   │  SPACE  │   CTRL  ││   ALT   │  SPACE  │   BSPC  │   GUI   │
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */ 
  bindings = <
  //╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷
-                 &kp FR_6     &kp FR_7     &kp FR_8     &kp FR_9     &kp FR_0                                &kp PG_UP    &kp FR_QUOT  &kp UP       &kp FR_DQUO  &kp HOME
-    &kp PRCNT    &kp FR_1     &kp FR_2     &kp FR_3     &kp FR_4     &kp FR_5                                &kp PG_DN    &kp LEFT     &kp DOWN     &kp RIGHT    &kp END      &kp SQT
-    &trans       &kp FSLH     &kp STAR     &kp MINUS    &kp Plus     &kp EQUAL    &trans        &trans       &kp LBKT     &kp RBKT     &kp LBRC     &kp RBRC     &kp FR_LABK  &kp FR_RABK
-                                           &trans       &trans       &trans       &trans        &trans       &trans       &trans       &trans    
+                 &kp FR_A     &kp FR_Z     &kp E        &kp R        &kp T                                   &kp Y        &kp U        &kp I        &kp O        &kp P
+    &kp LPAR     &kp FR_Q     &kp S        &kp D        &kp F        &kp G                                   &kp H        &kp J        &kp K        &kp L        &kp FR_M     &kp RPAR
+    &kp LC(LSHFT)&kp FR_W     &kp X        &kp C        &kp V        &kp B        &trans        &trans       &kp N        &kp FR_COMM  &kp FR_SCLN  &kp FR_COLN  &kp FR_EXLM  &lt Fun FR_CIRC
+                                           &kp DEL      &lt Unic TAB &mt LSHFT RET &mt LCTRL ESC &mt LALT A &mt LSHFT SPACE &lt NumArr BSPC &kp LGUI    
                         >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
