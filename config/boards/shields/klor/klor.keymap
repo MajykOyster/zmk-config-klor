@@ -103,7 +103,7 @@ label= "NumArr"                                                  ;
  //╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷
                  &kp FR_6     &kp FR_7     &kp FR_8     &kp FR_9     &kp FR_0                                &kp PG_UP    &kp FR_QUOT  &kp UP       &kp FR_DQUO  &kp HOME
     &kp PRCNT    &kp FR_1     &kp FR_2     &kp FR_3     &kp FR_4     &kp FR_5                                &kp PG_DN    &kp LEFT     &kp DOWN     &kp RIGHT    &kp END      &kp SQT
-    &trans       &kp FR_A     &kp FR_A     &kp FR_A    &kp FR_A     &kp FR_A    &trans        &trans       &kp FR_A     &kp FR_A     &kp FR_A     &kp FR_A     &kp FR_A  &kp FR_A
+    &trans       &kp FSLH     &kp STAR     &kp MINUS    &kp Plus     &kp EQUAL    &trans        &trans       &kp FR_A     &kp FR_A     &kp FR_A     &kp FR_A     &kp FR_A  &kp FR_A
                                            &kp DEL      &lt Unic TAB &mt LSHFT RET &mt LCTRL ESC &mt LALT A &mt LSHFT SPACE &lt NumArr BSPC &kp LGUI    
                         >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
