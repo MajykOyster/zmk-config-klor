@@ -108,7 +108,6 @@
         #define OS_UNICODE_LEAD &macro_tap &kp LS(LC(U))   // Linux
     #else
         #define OS_UNICODE_LEAD &macro_tap &kp RALT  // Windows + WinCompose (default)
-/*        #define OS_UNICODE_LEAD &macro_tap &kp RALT &kp U  // Windows + WinCompose (default)*/
     #endif
 #endif
 #if !defined OS_UNICODE_TRAIL
