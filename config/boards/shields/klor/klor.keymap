@@ -61,7 +61,7 @@
             };
             combo_oe {
                 timeout-ms = <50>;
-                key-positions = <0 8>;
+                key-positions = <2 8>;
                 bindings = <&oe>;
             };
     };
@@ -146,7 +146,7 @@ label= "Unic"                                                  ;
  //╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷
                  &agr         &egr         &eaig        &none        &none                                   &none        &ugrav       &none        &none        &none
     &none        &none        &none        &none        &none        &none                                   &none        &none        &none        &none        &none        &none
-    &none        &none        &none        &none        &none        &none        &none         &none        &none        &none        &none        &none        &none        &none
+    &none        &none        &none        &cced        &none        &none        &none         &none        &none        &none        &none        &none        &none        &none
                                            &kp DEL      &lt Unic TAB &mt LSHFT RET &mt LCTRL ESC &mt LALT A &mt LSHFT SPACE &lt NumArr BSPC &kp LGUI
                         >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
