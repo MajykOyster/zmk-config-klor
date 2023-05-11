@@ -108,6 +108,7 @@
         #define OS_UNICODE_LEAD &macro_tap &kp LS(LC(U))   // Linux
     #else
         #define OS_UNICODE_LEAD &macro_tap &kp RALT &kp U  // Windows + WinCompose (default)
+    #endif
 #endif
 #if !defined OS_UNICODE_TRAIL
     #if HOST_OS == 2
