@@ -1,10 +1,13 @@
 if SHIELD_KLOR_LEFT
 
     config ZMK_KEYBOARD_NAME
-        default "KLOR"
+        default "KLOR ZMK"
 
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
         default y
+		
+	config ZMK_BLE
+		default y
 
 endif # LEFT
 
