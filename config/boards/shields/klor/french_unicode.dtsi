@@ -13,7 +13,7 @@ ZMK_UNICODE_SINGLE(inf,     FR_0, FR_0, FR_3,    C) 							// <
 ZMK_UNICODE_SINGLE(sup,     FR_0, FR_0, FR_3,    E) 							// >
 ZMK_UNICODE_SINGLE(slash,   FR_0, FR_0, FR_2,    F) 							// /
 ZMK_UNICODE_SINGLE(bksla,   FR_0, FR_0, FR_5,    C) 							// \
-ZMK_UNICODE_SINGLE(pipe,    FR_0, FR_0, FR_7,    C) 							// |
+ZMK_UNICODE_SINGLE(pip,    FR_0, FR_0, FR_7,    C) 								// |
 ZMK_UNICODE_SINGLE(excl,    FR_0, FR_0, FR_2, FR_1) 							// !
 ZMK_UNICODE_SINGLE(at,      FR_0, FR_0, FR_4, FR_0) 							// @
 ZMK_UNICODE_SINGLE(invque,  FR_0, FR_0,    B,    F) 							// ¿
