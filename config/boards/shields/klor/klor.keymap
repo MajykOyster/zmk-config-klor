@@ -144,7 +144,7 @@ label= "Unic"                                                  ;
                                        └───────────┴───────────┴───────────┴──────────┘└──────────┴───────────┴───────────┴───────────┘ */
  bindings = <
  //╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷
-                 &agr         &egr         &eaig        &regist      &kp FR_AMPR                             &pip         &ugrav       &none        &none        &none
+                 &agr         &egr         &eaig        &regist      &kp FR_AMPR                             &pipe        &ugrav       &none        &none        &none
     &none        &none        &dollar      &kp FR_HASH  &kp FR_UNDS  &kp FR_MINS                             &bakqut      &tilde       &none        &arrowr      &micro       &none
     &none        &none        &none        &cced        &none        &none        &none         &none        &at          &invque      &none        &none        &invexl      &none
                                            &kp DEL      &lt Unic TAB &mt LSHFT RET &mt LCTRL ESC &mt LALT A &mt LSHFT SPACE &lt NumArr BSPC &kp LGUI
