@@ -118,8 +118,8 @@ label= "NumArr"                                                ;
  bindings = <
  //╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷
                  &kp FR_6     &kp FR_7     &kp FR_8     &kp FR_9     &kp FR_0                                &kp PG_UP    &kp FR_QUOT  &kp UP       &kp FR_DQUO  &kp HOME
-    &perct       &kp FR_1     &kp FR_2     &kp FR_3     &kp FR_4     &kp FR_5                                &kp PG_DN    &kp LEFT     &kp DOWN     &kp RIGHT    &kp END      &sq_cb
-    &trans       &kp FSLH     &kp STAR     &kp MINUS    &kp PLUS     &kp EQUAL    &trans        &trans       &kp FR_LBRC  &kp FR_RBRC  &kp FR_LCBR  &kp FR_RCBR  &kp FR_LABK  &kp FR_RABK
+    &Perct       &kp FR_1     &kp FR_2     &kp FR_3     &kp FR_4     &kp FR_5                                &kp PG_DN    &kp LEFT     &kp DOWN     &kp RIGHT    &kp END      &SqCb
+    &trans      &kp KP_DIVIDE&kp KP_MULTIPLY&kp KP_MINUS&kp KP_PLUS  &kp KP_EQUAL &trans        &trans       &Inf         &Sup         &kp FR_LCBR  &kp FR_RCBR  &InfEg       &InfEg
                                            &trans       &trans       &trans       &trans        &trans       &trans       &trans       &trans 
                         >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
