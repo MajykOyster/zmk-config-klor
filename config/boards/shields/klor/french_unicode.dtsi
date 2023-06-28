@@ -8,6 +8,8 @@ ZMK_UNICODE_PAIR(EAig,		FR_0, FR_0,    E, FR_9,		FR_0, FR_0,    C, FR_9)	// é/�
 ZMK_UNICODE_PAIR(EGr,		FR_0, FR_0,    E, FR_8,		FR_0, FR_0,    C, FR_8)	// è/È
 ZMK_UNICODE_PAIR(UGr,		FR_0, FR_0,    F, FR_9,		FR_0, FR_0,    D, FR_9)	// ù/Ù
 ZMK_UNICODE_PAIR(SqCb,		FR_0, FR_0,    B, FR_2,		FR_0, FR_0,    B, FR_3) // ²/³
+ZMK_UNICODE_PAIR(ExcBkS,	FR_0, FR_0, FR_2, FR_1,		FR_0, FR_0, FR_5,    C) // !/
+
 ZMK_UNICODE_SINGLE(Micro,	FR_0, FR_0,    B, FR_5) 							// µ
 ZMK_UNICODE_SINGLE(Inf,		FR_0, FR_0, FR_3,    C) 							// <
 ZMK_UNICODE_SINGLE(Sup,		FR_0, FR_0, FR_3,    E) 							// >
