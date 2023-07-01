@@ -86,7 +86,7 @@ label= "Default"                                               ;
                                               &kp LGUI     &lt Unic TAB &mt LSHFT RET&mt LCTRL ESC &mt LALT A   &mt LSHFT SPACE&lt NumArr BSPC &kp DEL
                         >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-                };
+};
 
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
