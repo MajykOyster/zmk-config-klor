@@ -39,7 +39,7 @@
                 compatible = "zmk,behavior-mod-morph";
                 label = "ENCODER_CLW";
                 #binding-cells = <0>;
-                bindings = <&kp C_VOL_UP>, <&kp C_PREV C_NEXT>;
+                bindings = <&kp C_VOL_UP>, <&kp C_NEXT>;
                 mods = <(MOD_LALT)>;
         };
             encoder_cclw: encoder_cclw {
