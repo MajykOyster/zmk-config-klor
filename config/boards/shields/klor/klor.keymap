@@ -35,6 +35,13 @@
 
 / {
     behaviors {
+            track : track {
+                compatible = "zmk,behavior-mod-morph";
+                label = "TRACK";
+                #binding-cells = <0>;
+                bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_PREV C_NEXT>;
+                mods = <(MOD_LALT)>;
+        };
     };
 
      combos {
