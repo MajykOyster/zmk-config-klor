@@ -35,26 +35,27 @@
 
 / {
     behaviors {
-            encoder_clw: encoder_clw {
+            encoder_clw_alt: encoder_clw_alt {
                 compatible = "zmk,behavior-mod-morph";
-                label = "ENCODER_CLW";
+                label = "ENCODER_CLW_ALT";
                 #binding-cells = <0>;
                 bindings = <&kp C_VOL_UP>, <&kp C_NEXT>;
                 mods = <(MOD_LALT)>;
-        };
-            encoder_cclw: encoder_cclw {
+            };
+            encoder_ccw_alt: encoder_ccw_alt {
                 compatible = "zmk,behavior-mod-morph";
-                label = "ENCODER_CCLW";
+                label = "ENCODER_CCW_ALT;
                 #binding-cells = <0>;
                 bindings = <&kp C_VOL_DN>, <&kp C_PREV>;
                 mods = <(MOD_LALT)>;
-        };
+            };
+
             encoder_kp: encoder_kp {
                 compatible = "zmk,behavior-sensor-rotate";
                 label = "ENCODER_KP";
                 #sensor-binding-cells = <0>;
-                bindings = <&encoder_clw>, <&encoder_cclw>;
-        };
+                bindings = <&encoder_clw_alt>, <&encoder_ccw_alt>;
+            };
     };
 
      combos {
