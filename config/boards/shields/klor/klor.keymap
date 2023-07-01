@@ -35,7 +35,7 @@
 
 / {
     behaviors {
-            track : track {
+            track: track {
                 compatible = "zmk,behavior-mod-morph";
                 label = "TRACK";
                 #binding-cells = <0>;
