@@ -44,7 +44,7 @@
             };
             encoder_ccw_alt: encoder_ccw_alt {
                 compatible = "zmk,behavior-mod-morph";
-                label = "ENCODER_CCW_ALT;
+                label = "ENCODER_CCW_ALT";
                 #binding-cells = <0>;
                 bindings = <&kp C_VOL_DN>, <&kp C_PREV>;
                 mods = <(MOD_LALT)>;
