@@ -21,7 +21,7 @@ ZMK_UNICODE_SINGLE(Pipe,	FR_0, FR_0, FR_7,    C) 							// |
 ZMK_UNICODE_SINGLE(Excl,	FR_0, FR_0, FR_2, FR_1) 							// !
 ZMK_UNICODE_SINGLE(At,		FR_0, FR_0, FR_4, FR_0) 							// @
 ZMK_UNICODE_SINGLE(InvQue,	FR_0, FR_0,    B,    F) 							// ¿
-ZMK_UNICODE_SINGLE(InvExl,	FR_0, FR_0,    A, FR_1) 							// ¡
+ZMK_UNICODE_SINGLE(InvExl,	FR_0, FR_0, FR_A, FR_1) 							// ¡
 ZMK_UNICODE_SINGLE(Dollar,	FR_0, FR_0, FR_2, FR_4) 							// $
 ZMK_UNICODE_SINGLE(Perct,	FR_0, FR_0, FR_2, FR_5) 							// %
 ZMK_UNICODE_SINGLE(Regist,	FR_0, FR_0,    A,    E) 							// ®
