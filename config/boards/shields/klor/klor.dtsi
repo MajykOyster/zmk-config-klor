@@ -22,6 +22,22 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(3,5) RC(3,6) RC(2,6) RC(2,7) 
                         RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,7) RC(3,8) RC(3,9) RC(3,10)
 		>;
 	};
+
+	left_encoder: encoder_left {
+		compatible = "alps,ec11";
+        	a-gpios = <20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        	b-gpios = <21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        	steps = <80>;
+        	status = "disabled";
+	};
+
+	right_encoder: encoder_right {
+		compatible = "alps,ec11";
+        	a-gpios = <20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        	b-gpios = <21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        	steps = <80>;
+        	status = "disabled";
+	};
 };
 
 &kscan0 {
@@ -33,6 +49,9 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(3,5) RC(3,6) RC(2,6) RC(2,7) 
 		;
 };
 
+
+
+/*
 &left_encoder {
 	a-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 	b-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
@@ -42,3 +61,4 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(3,5) RC(3,6) RC(2,6) RC(2,7) 
 	a-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 	b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 };
+*/
