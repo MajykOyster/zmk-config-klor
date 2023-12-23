@@ -35,24 +35,45 @@
 
 / {
     behaviors {
-            encoder_clw_alt: encoder_clw_alt {
+            left_encoder_clw_alt: left_encoder_clw_alt {
                 compatible = "zmk,behavior-mod-morph";
-                label = "ENCODER_CLW_ALT";
+                #label = "LEFT_ENCODER_CLW_ALT";
                 #binding-cells = <0>;
                 bindings = <&kp C_VOL_UP>, <&kp C_NEXT>;
                 mods = <(MOD_LALT)>;
             };
-            encoder_ccw_alt: encoder_ccw_alt {
+            left_encoder_ccw_alt: left_encoder_ccw_alt {
                 compatible = "zmk,behavior-mod-morph";
-                label = "ENCODER_CCW_ALT";
+                #label = "LEFT_ENCODER_CCW_ALT";
                 #binding-cells = <0>;
                 bindings = <&kp C_VOL_DN>, <&kp C_PREV>;
                 mods = <(MOD_LALT)>;
             };
 
-            encoder_kp: encoder_kp {
+            left_encoder_kp: left_encoder_kp {
                 compatible = "zmk,behavior-sensor-rotate";
-                label = "ENCODER_KP";
+                #label = "LEFT_ENCODER_KP";
+                #sensor-binding-cells = <0>;
+                bindings = <&encoder_clw_alt>, <&encoder_ccw_alt>;
+            };
+            right_encoder_clw_alt: right_encoder_clw_alt {
+                compatible = "zmk,behavior-mod-morph";
+                #label = "RIGHT_ENCODER_CLW_ALT";
+                #binding-cells = <0>;
+                bindings = <&kp C_VOL_UP>, <&kp C_NEXT>;
+                mods = <(MOD_LALT)>;
+            };
+            left_encoder_ccw_alt: left_encoder_ccw_alt {
+                compatible = "zmk,behavior-mod-morph";
+                #label = "RIGHT_ENCODER_CCW_ALT";
+                #binding-cells = <0>;
+                bindings = <&kp C_VOL_DN>, <&kp C_PREV>;
+                mods = <(MOD_LALT)>;
+            };
+
+            right_encoder_kp: right_encoder_kp {
+                compatible = "zmk,behavior-sensor-rotate";
+                #label = "RIGHT_ENCODER_KP";
                 #sensor-binding-cells = <0>;
                 bindings = <&encoder_clw_alt>, <&encoder_ccw_alt>;
             };
@@ -106,7 +127,7 @@ label= "Default"                                               ;
     &kp LC(LSHFT) &kp FR_W      &kp X         &kp C        &kp V        &kp B        &trans        &trans       &kp N        &kp FR_COMM  &kp FR_SCLN  &kp FR_COLN  &ExcBkS      &lt Fun FR_CIRC
                                               &kp LGUI     &lt Unic TAB &mt LSHFT RET&mt LCTRL ESC&mt LALT K_APP&mt LSHFT SPACE&lt NumArr BSPC &kp DEL
                         >;
-            sensor-bindings = <&encoder_kp>;
+            sensor-bindings = <&left_encoder_kp &right_encoder_kp>;
 };
 
 
@@ -133,7 +154,7 @@ label= "NumArr"                                                ;
     &trans      &kp KP_DIVIDE&kp KP_MULTIPLY&kp KP_MINUS&kp KP_PLUS  &kp EQUAL    &trans        &trans       &Inf         &Sup         &kp FR_LCBR  &kp FR_RCBR  &InfEg       &InfEg
                                            &trans       &trans       &trans       &trans        &trans       &trans       &trans       &trans 
                         >;
-            sensor-bindings = <&encoder_kp>;
+            sensor-bindings = <&left_encoder_kp &right_encoder_kp>;
                 };
 
 
@@ -160,7 +181,7 @@ label= "Unic"                                                  ;
     &none        &none        &none        &CCed        &none        &none        &none         &none        &At          &InvQue      &none        &none        &InvExl      &none
                                            &kp DEL      &lt Unic TAB &mt LSHFT RET &mt LCTRL ESC &mt LALT A &mt LSHFT SPACE &lt NumArr BSPC &kp LGUI
                         >;
-            sensor-bindings = <&encoder_kp>;
+            sensor-bindings = <&left_encoder_kp &right_encoder_kp>;
                 };
 
 
@@ -187,7 +208,7 @@ label= "Fun"                                                   ;
     &to Gaming    &kp F9        &kp F10       &kp F11       &kp F12       &none         &trans         &trans       &kp LC(LS(ESC))&kp LA(F4)   &kp LC(LA(DEL))&none        &none        &bt BT_CLR   &trans
                                               &trans        &trans        &trans        &trans         &trans        &trans        &trans        &trans 
                         >;
-            sensor-bindings = <&encoder_kp>;
+            sensor-bindings = <&left_encoder_kp &right_encoder_kp>;
                 };
 
 
@@ -214,7 +235,7 @@ label= "Media"                                                 ;
     &none        &none        &none        &none        &none        &none        &trans        &trans       &none        &none        &none        &none        &none        &none
                                            &trans       &trans       &trans       &trans        &trans       &trans       &trans       &trans 
                         >;
-            sensor-bindings = <&encoder_kp>;
+            sensor-bindings = <&left_encoder_kp &right_encoder_kp>;
                 };
 
 
@@ -241,7 +262,7 @@ label= "Mouse"                                                 ;
     &none        &none        &none        &none        &none        &none        &none         &none        &none        &none        &none        &none        &none        &none
                                            &trans       &trans       &trans       &trans        &trans       &trans       &trans       &trans 
                         >;
-            sensor-bindings = <&encoder_kp>;
+            sensor-bindings = <&left_encoder_kp &right_encoder_kp>;
                 };
 
 
@@ -268,7 +289,7 @@ label= "Gaming"                                                ;
     &kp LCTRL    &kp FR_4     &kp FR_W     &kp X        &kp C        &kp V        &trans        &trans       &none        &none        &none        &none        &none        &none
                                            &kp ESC      &kp FR_2     &kp SPACE    &kp FR_1      &kp RET      &to Default  &none        &none
                         >;
-            sensor-bindings = <&encoder_kp>;
+            sensor-bindings = <&left_encoder_kp &right_encoder_kp>;
                 };
 
         };
