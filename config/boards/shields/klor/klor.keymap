@@ -37,13 +37,13 @@
     behaviors {
               left_encoder_clw_alt: left_encoder_clw_alt {
                 compatible = "zmk,behavior-mod-morph";
-                bindings = <&kp C_VOL_DN>, <&kp FR_A>;
+                bindings = <&kp C_VOL_DN>, <&kp LS(LG(TAB))>;
                 #binding-cells = <0>;
                 mods = <(MOD_LALT)>;
               };
               left_encoder_ccw_alt: left_encoder_ccw_alt {
                 compatible = "zmk,behavior-mod-morph";
-                bindings = <&kp C_VOL_UP>, <&kp FR_B>;
+                bindings = <&kp C_VOL_UP>, <&kp LG(TAB)>;
                 #binding-cells = <0>;
                 mods = <(MOD_LALT)>;
               };
@@ -55,13 +55,13 @@
 
               right_encoder_clw_alt: right_encoder_clw_alt {
                 compatible = "zmk,behavior-mod-morph";
-                bindings = <&kp C_NEXT>, <&kp FR_C>;
+                bindings = <&kp C_NEXT>, <&kp PG_UP>;
                 #binding-cells = <0>;
                 mods = <(MOD_LCTL)>;
               };
               right_encoder_ccw_alt: right_encoder_ccw_alt {
                 compatible = "zmk,behavior-mod-morph";
-                bindings = <&kp C_PREV>, <&kp FR_D>;
+                bindings = <&kp C_PREV>, <&kp PG_DN>;
                 #binding-cells = <0>;
                 mods = <(MOD_LCTL)>;
               };
@@ -116,7 +116,7 @@ label= "Default"                                               ;
  bindings = <
  //╷             ╷             ╷             ╷            ╷            ╷            ╷            ╷╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷
                   &kp FR_A      &kp FR_Z      &kp FR_E     &kp FR_R     &kp FR_T                                &kp FR_Y     &kp FR_U     &kp FR_I     &kp FR_O     &kp FR_P
-    &LfPLfB       &kp FR_Q      &kp FR_S      &kp FR_D     &kp FR_R     &kp FR_G                                &kp FR_H     &kp FR_J     &kp FR_K     &kp FR_L     &kp FR_M     &RgPRgB
+    &LfPLfB       &kp FR_Q      &kp FR_S      &kp FR_D     &kp FR_F     &kp FR_G                                &kp FR_H     &kp FR_J     &kp FR_K     &kp FR_L     &kp FR_M     &RgPRgB
     &kp LC(LSHFT) &kp FR_W      &kp FR_X      &kp FR_C     &kp FR_V     &kp FR_B     &trans        &trans       &kp FR_N     &kp FR_COMM  &kp FR_SCLN  &kp FR_COLN  &ExcBkS      &lt Fun FR_CIRC
                                               &kp LGUI     &lt Unic TAB &mt LSHFT RET&mt LCTRL ESC&mt LALT K_APP&mt LSHFT SPACE&lt NumArr BSPC &kp DEL
                         >;
