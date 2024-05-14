@@ -92,7 +92,7 @@
     };
 
        macros {
-              zed_em_kay: zed_em_kay {
+              mail: mail {
                      compatible = "zmk,behavior-macro";
                      #binding-cells = <0>;
                      bindings = <&macro_tap &kp FR_Y &kp FR_O &kp FR_A &kp FR_N &kp FR_N &kp DOT &kp FR_Y &kp FR_V &kp FR_I &kp FR_N &kp AT &kp FR_E &kp FR_T &kp FR_I &kp FR_K &kp DOT &kp FR_C &kp FR_O &kp FR_M>;
@@ -177,7 +177,7 @@ label= "Unic"                                                  ;
  //╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷╷            ╷            ╷            ╷            ╷            ╷            ╷            ╷
                  &AGr         &EGr         &EAig        &Regist      &kp FR_AMPR                             &Pipe        &UGr         &none        &Deg         &none
     &none        &none        &Dollar      &kp FR_HASH  &kp FR_UNDS  &kp FR_MINS                             &BakQut      &Tilde       &none        &ArrowR      &Micro       &none
-    &none        &none        &none        &CCed        &none        &none        &none         &none        &At          &InvQue      &none        &none        &InvExl      &none
+    &none        &none        &none        &CCed        &none        &mail        &none         &none        &At          &InvQue      &none        &none        &InvExl      &none
                                            &kp DEL      &lt Unic TAB &mt LSHFT RET &mt LCTRL ESC &mt LALT A &mt LSHFT SPACE &lt NumArr BSPC &kp LGUI
                         >;
             sensor-bindings = <&left_encoder_kp &right_encoder_kp>;
