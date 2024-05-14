@@ -95,7 +95,7 @@
               zed_em_kay: zed_em_kay {
                      compatible = "zmk,behavior-macro";
                      #binding-cells = <0>;
-                     bindings = <&macro_tap &kp FR_Y &kp FR_O &kp FR_A &kp FR_N &kp FR_N &kp DOT &kp FR_Y &kp FR_V &kp FR_I &kp FR_N &kp AT &kp FR_E &kp FR_T &kp FR_I &kp FR_K &kp DOT &kp FR_C &kp FR_O &kp FR_M;
+                     bindings = <&macro_tap &kp FR_Y &kp FR_O &kp FR_A &kp FR_N &kp FR_N &kp DOT &kp FR_Y &kp FR_V &kp FR_I &kp FR_N &kp AT &kp FR_E &kp FR_T &kp FR_I &kp FR_K &kp DOT &kp FR_C &kp FR_O &kp FR_M>;
               };
        };
 
